@@ -1,0 +1,177 @@
+body {
+    background-color: #385170; 
+}
+
+.header h1 {
+    font-size: 50px;
+    position: absolute;
+    margin-left: 50px;
+    text-align: center;
+    top: -5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.header h1:hover {
+    transform: scale(1.1);
+}
+
+.container > img {
+    position: absolute;
+    width: 550px;
+    height: 600px;
+    top: 20%;
+    left: 60%;
+}
+
+.about-header h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    color: white;
+    font-size: 90px;
+}
+
+.glazed-text {
+    background: linear-gradient(45deg, #ececec, #9fd3c7, #385170, #001d41);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.buttons-container > .github-button {
+    position: absolute;
+    left: 250px;
+    top: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #174074;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #001d41;
+    text-decoration: none;
+  }
+  
+  .buttons-container > .github-button:hover {background-color: #215ba7}
+  
+  .buttons-container > .github-button:active {
+    background-color: #174074;
+    box-shadow: 0 5px #001d41;
+    transform: translateY(4px);
+  }
+
+.buttons-container > .view-code-button {
+    position: absolute;
+    left: 400px;
+    top: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #174074;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #001d41;
+    text-decoration: none;
+  }
+  
+  .buttons-container > .view-code-button:hover {background-color: #215ba7}
+  
+  .buttons-container > .view-code-button:active {
+    background-color: #174074;
+    box-shadow: 0 5px #001d41;
+    transform: translateY(4px);
+  }
+
+.buttons-container > .discord-button {
+    position: absolute;
+    left: 600px;
+    top: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #174074;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #001d41;
+    text-decoration: none;
+  }
+  
+  .buttons-container > .discord-button:hover {background-color: #215ba7}
+  
+  .buttons-container > .discord-button:active {
+    background-color: #174074;
+    box-shadow: 0 5px #001d41;
+    transform: translateY(4px);
+  }
+
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #174074;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #001d41;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+
+  .menu a:hover { background-color: #215ba7 }  
+  
+  .menu-button {
+    display: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background: #fff;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+  
+    .menu-button {
+      position: relative;
+      top: 25px;
+      display: block;
+      font-size: 45px;
+      color: white;
+    }
+  }
+  
